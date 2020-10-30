@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bkgnd" >
+    
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="1" >
+    	<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="fill_parent" 
+    		android:gravity="center"
+    		android:text="Option"
+    		android:textColor="#00FF00"
+			android:layout_margin="3dp"
+			android:textSize="40dp"
+			android:textStyle="bold"
+			android:shadowColor="#000000"
+			android:shadowDx="1"
+			android:shadowDy="1"
+			android:shadowRadius="2"
+		/>
+    	
+    </LinearLayout>
+	
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="5"
+    	android:orientation="vertical" >
+    
+    	<LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:layout_weight="1"
+    		android:orientation="horizontal" >
+    			
+    		 
+    		<LinearLayout 
+    			android:layout_width="0dp"
+    			android:layout_height="match_parent"
+    			android:layout_weight="1" >
+    		</LinearLayout>
+    		<LinearLayout 
+    			android:layout_width="0dp"
+    			android:layout_height="match_parent"
+    			android:layout_weight="3" >
+    			<Button
+        			android:background="@drawable/blue_btn"
+        			android:id="@+id/sound_btn"
+        			android:layout_width="match_parent"
+        			android:layout_height="match_parent"
+        			android:text="Sound"
+        			android:textColor="#ffffff"
+					android:gravity="center"
+					android:layout_margin="3dp"
+					android:textSize="40dp"
+					android:textStyle="bold"
+					android:shadowColor="#000000"
+					android:shadowDx="1"
+					android:shadowDy="1"
+					android:shadowRadius="2" />
+    		</LinearLayout>
+    		<LinearLayout 
+    			android:layout_width="0dp"
+    			android:layout_height="match_parent"
+    			android:layout_weight="1" >
+    		</LinearLayout>
+    		 
+    	</LinearLayout>
+    	
+    	<LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:layout_weight="1" >
+    	</LinearLayout>
+    	<LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:layout_weight="1"
+    		android:orientation="horizontal"  >
+    		<LinearLayout 
+    			android:layout_width="0dp"
+    			android:layout_height="match_parent"
+    			android:layout_weight="1" >
+    		</LinearLayout>
+    		<LinearLayout 
+    			android:layout_width="0dp"
+    			android:layout_height="match_parent"
+    			android:layout_weight="3" >
+    			<Button
+        			android:background="@drawable/red_btn"
+        			android:id="@+id/difficult_btn"
+        			android:layout_width="match_parent"
+        			android:layout_height="match_parent"
+        			android:text="Level"
+        			android:textColor="#ffffff"
+					android:gravity="center"
+					android:layout_margin="3dp"
+					android:textSize="40dp"
+					android:textStyle="bold"
+					android:shadowColor="#000000"
+					android:shadowDx="1"
+					android:shadowDy="1"
+					android:shadowRadius="2" />
+    		</LinearLayout>
+    		<LinearLayout 
+    			android:layout_width="0dp"
+    			android:layout_height="match_parent"
+    			android:layout_weight="1" >
+    		</LinearLayout>
+    	</LinearLayout>
+    	<LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:layout_weight="1" >
+    	</LinearLayout>
+    	<LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:layout_weight="1"
+    		android:orientation="horizontal" >
+    		<LinearLayout 
+    			android:layout_width="0dp"
+    			android:layout_height="match_parent"
+    			android:layout_weight="1" >
+    		</LinearLayout>
+    		<LinearLayout 
+    			android:layout_width="0dp"
+    			android:layout_height="match_parent"
+    			android:layout_weight="3" >
+    			<Button
+        			android:background="@drawable/yellow_btn"
+        			android:id="@+id/quit_option_btn"
+        			android:layout_width="match_parent"
+        			android:layout_height="match_parent"
+        			android:text="Main"
+        			android:textColor="#ffffff"
+					android:gravity="center"
+					android:layout_margin="3dp"
+					android:textSize="40dp"
+					android:textStyle="bold"
+					android:shadowColor="#000000"
+					android:shadowDx="1"
+					android:shadowDy="1"
+					android:shadowRadius="2" />
+    		</LinearLayout>
+    		<LinearLayout 
+    			android:layout_width="0dp"
+    			android:layout_height="match_parent"
+    			android:layout_weight="1" >
+    		</LinearLayout>
+    	</LinearLayout>
+    	
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="1" >
+    </LinearLayout>
+    
+	
+</LinearLayout>
